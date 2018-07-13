@@ -43,7 +43,7 @@ $message = 'Dear Colleague,
 
 Thank you for registering for ICFFTS 2019. If you have requested any official letters, please allow up to 5 business days to receive your documents.
 
-If you are an author, please make sure to send us your camera ready version and a signed copyright form via email to info@icaeam.com. You can find the copyright form here: www.2019.icaeam.com/papers. Please note that failing to do so may result in an unsuccessful process of your registration.
+If you are an author, please make sure to send us your camera ready version and a signed copyright form via email to info@icffts.com. You can find the copyright form here: www.2019.icaeam.com/papers. Please note that failing to do so may result in an unsuccessful process of your registration.
 
 You can find your registration details below. If there are any errors in the information you have provided, please write an email to us at registration@icaeam.com mentioning the correct information. Please note that you SHOULD NOT refill the form.
 
@@ -185,7 +185,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 </div>
         <div class="bg">
           <h1>International Conference on<br>  Fluid Flow and Thermal Science (ICFFTS'19)</h1>
-          <p class="subhead">August 13 - 14, 2019 | Lisbon, Portugal</p>
+          <p class="subhead">August 13 - 14, 2019 | Orlando, Florida</p>
 
           <a href="../papers" class="bg-link">Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -213,7 +213,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
         <div class="bg">
           <h1>International Conference on<br>  Fluid Flow and Thermal Science (ICFFTS'19)</h1>
-          <p class="subhead">August 13 - 14, 2019 | Lisbon, Portugal</p>
+          <p class="subhead">August 13 - 14, 2019 | Orlando, Florida</p>
 
           <a href="../papers" class="bg-link">Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -273,7 +273,7 @@ mail($your_email,$your_subject,$message,$your_headers);
     Orl&eacute;ans, Ontario, Canada<br>
     Postal Code: K1C 1G1<br>
     +1-613-834-9999<br>
-    <a href="mailto:info@icaeam.com">info@icaeam.com</a></p>
+    <a href="mailto:info@icffts.com">info@icffts.com</a></p>
     </div>
   </div>
 

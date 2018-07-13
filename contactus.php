@@ -1,6 +1,6 @@
 <?php
 
-$my_email = "info@icaeam.com";
+$my_email = "info@icffts.com";
 
 $name=$_POST['Name'];
 $email=$_POST['Email'];
@@ -12,7 +12,7 @@ $captcha = false;
 // check if not robot
 if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])) {
   $captcha = true;
-  $secret = '6LcwDV4UAAAAAOeEHzMaw79jqPgfh_rCit6BeYpO';
+  $secret = '6LfyGGQUAAAAAMqXTmDgAYb9L86HWAeoR7ZG5ck3';
   //get verify response data
   $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
   $responseData = json_decode($verifyResponse);
@@ -104,7 +104,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
 </div>
         <div class="bg">
           <h1>International Conference on<br>  Fluid Flow and Thermal Science (ICFFTS'19)</h1>
-          <p class="subhead">August 13 - 14, 2019 | Lisbon, Portugal</p>
+          <p class="subhead">August 13 - 14, 2019 | Orlando, Florida</p>
 
           <a href="../papers" class="bg-link">Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -132,7 +132,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
 
         <div class="bg">
           <h1>International Conference on<br>  Fluid Flow and Thermal Science (ICFFTS'19)</h1>
-          <p class="subhead">August 13 - 14, 2019 | Lisbon, Portugal</p>
+          <p class="subhead">August 13 - 14, 2019 | Orlando, Florida</p>
 
           <a href="../papers" class="bg-link">Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -185,7 +185,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
     Orl&eacute;ans, Ontario, Canada<br>
     Postal Code: K1C 1G1<br>
     +1-613-834-9999<br>
-    <a href="mailto:info@icaeam.com">info@icaeam.com</a></p>
+    <a href="mailto:info@icffts.com">info@icffts.com</a></p>
     </div>
   </div>
 

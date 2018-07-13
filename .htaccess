@@ -1,12 +1,12 @@
 RewriteEngine on
 RewriteBase /
 
-RewriteCond %{HTTP_HOST} ^icaeam\.international\-aset\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.icaeam\.international\-aset\.com$
+RewriteCond %{HTTP_HOST} ^icffts\.international\-aset\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.icffts\.international\-aset\.com$
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^(.*)$ "http\:\/\/icaeam\.net\/$1" [R=301,L]
+RewriteRule ^(.*)$ "http\:\/\/icffts\.com\/$1" [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
@@ -14,6 +14,10 @@ RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^([^/]+)/$ $1.html 
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
 
 # Forces a trailing slash to be added
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -24,7 +28,7 @@ RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule (.*)$ /$1/ [R=301,L]
 
-Redirect /index https://icaeam.com
+Redirect /index https://icffts.com
 
 ErrorDocument 404 /NotValid.html
 ErrorDocument 403 /NotValid.html
@@ -34,3 +38,10 @@ ErrorDocument 500 /NotValid.html
 order allow,deny
 allow from all
 </Files>
+
+# Force https
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ https://icffts.com/$1 [R,L]
