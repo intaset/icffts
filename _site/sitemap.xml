@@ -2,113 +2,79 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-   <url>
+<url>
+   <loc>https://icffts.com/</loc>
+   <lastmod>2018-09-20T17:41:50+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>1.0000</priority>
+</url>
+<url>
+   <loc>https://icffts.com/papers/</loc>
+   <lastmod>2018-09-05T13:20:42+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://icffts.com/program/</loc>
+   <lastmod>2018-09-05T13:20:41+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://icffts.com/dates/</loc>
+   <lastmod>2018-09-05T13:20:43+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://icffts.com/registration/</loc>
+   <lastmod>2018-09-05T13:20:41+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://icffts.com/committee/</loc>
+   <lastmod>2018-10-10T15:54:22+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://icffts.com/keynote/</loc>
+   <lastmod>2018-09-05T13:20:42+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://icffts.com/venue/</loc>
+   <lastmod>2018-09-05T13:20:41+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://icffts.com/accommodation/</loc>
+   <lastmod>2018-09-05T13:20:43+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://icffts.com/past-events/</loc>
+   <lastmod>2018-09-05T13:20:42+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://icffts.com/sponsor/</loc>
+   <lastmod>2018-09-05T13:20:41+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
+<url>
+   <loc>https://icffts.com/symposium/</loc>
+   <lastmod>2018-09-05T13:20:41+00:00</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>0.6400</priority>
+</url>
 
-      <loc>http://www.icffts.com/index.html</loc>
 
-      <lastmod>2017-08-29</lastmod>
 
-      <priority>0.8</priority>
-
-   </url>
-
-  <url>
-
-      <loc>http://www.icffts.com/papers.html</loc>
-
-      <lastmod>2017-08-29</lastmod>
-
-      <priority>0.8</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.icffts.com/program.html</loc>
-
-      <lastmod>2017-08-29</lastmod>
-
-      <priority>0.8</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.icffts.com/dates.html</loc>
-
-      <lastmod>2017-08-29</lastmod>
-
-      <priority>0.8</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.icffts.com/registration.html</loc>
-
-      <lastmod>2017-08-29</lastmod>
-
-      <priority>0.8</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.icffts.com/committee.html</loc>
-
-      <lastmod>2017-08-29</lastmod>
-
-      <priority>0.8</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.icffts.com/keynote.html</loc>
-
-      <lastmod>2017-08-29</lastmod>
-
-      <priority>0.8</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.icffts.com/sponsor.html</loc>
-
-      <lastmod>2017-08-29</lastmod>
-
-      <priority>0.8</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.icffts.com/venue.html</loc>
-
-      <lastmod>2017-08-29</lastmod>
-
-      <priority>0.8</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.icffts.com/accommodation.html</loc>
-
-      <lastmod>2017-08-29</lastmod>
-
-      <priority>0.8</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.icffts.com/symposium.html</loc>
-
-      <lastmod>2017-08-29</lastmod>
-
-      <priority>0.8</priority>
-
-   </url>
 </urlset>
